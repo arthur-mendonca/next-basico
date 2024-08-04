@@ -1,7 +1,5 @@
-import { usuarios } from "@/app/data/constants/usuarios";
 import { Usuario } from "@/shared/models/Usuario";
-import { IconBrandGravatar, IconUserCircle } from "@tabler/icons-react";
-import Image from "next/image";
+import { IconUserCircle } from "@tabler/icons-react";
 
 export interface LinhaUsuarioProps {
   usuario: Usuario;
